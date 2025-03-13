@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atliq Fast Food</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="#home">HOME</a> |
+                <a href="#menu">MENU</a> |
+                <a href="#location">LOCATION</a> |
+                <a href="#aboutus">ABOUT US</a> |
+                <a href="#contactus">CONTACT US</a>
+            </nav>
+        </header>
+
+        <section id="home">
+            <h2>Welcome to Atliq Fast Food</h2>
+            <img src="banner.jpg" alt="Restaurant Banner">
+        </section>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="grid-container">
+                <img src="menu1.jpg" alt="Menu item 1">
+                <img src="menu2.jpg" alt="Menu item 2">
+                <img src="menu3.jpg" alt="Menu item 3">
+            </div>
+        </section>
+
+        <section id="location">
+            <h2>Location</h2>
+            <p>38 Patli Gali, Mumbai</p>
+            <!-- Add map widget here -->
+        </section>
+
+        <section id="contactus">
+            <h2>Contact Us</h2>
+            <p>Got questions? Want to place an order? Call us at +91 791234567 or email us at info@atliqfastfood.com</p>
+        </section>
+
+        <!-- Chatbot Integration -->
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+            chat-icon="https://www.logoground.com/uploads6/dv6y2019230692019-03-292965126Robot%2520Chef.jpg"
+            intent="WELCOME"
+            chat-title="MIRA"
+            agent-id="a71a8608-ea1c-4d71-b639-0580e21d31a6"
+            language-code="en">
+        </df-messenger>
+    </div>
+</body>
+</html>

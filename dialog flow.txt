@@ -1,0 +1,8 @@
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="https:&#x2F;&#x2F;www.google.com&#x2F;imgres?q=chef%20ai%20bot%20logo&ampimgurl=https%3A%2F%2Fwww.logoground.com%2Fuploads6%2Fdv6y2019230692019-03-292965126Robot%2520Chef.jpg&ampimgrefurl=https%3A%2F%2Fwww.logoground.com%2Flogo.php%3Fid%3D140182&ampdocid=QvqW8JX7t5v3aM&amptbnid=LVQPl3v0uNXg4M&ampvet=12ahUKEwjg5K2N34OMAxWhr1YBHefzB5kQM3oECE4QAA..i&ampw=600&amph=400&amphcb=2&ampved=2ahUKEwjg5K2N34OMAxWhr1YBHefzB5kQM3oECE4QAA"
+  intent="WELCOME"
+  chat-title="MIRA"
+  agent-id="a71a8608-ea1c-4d71-b639-0580e21d31a6"
+  language-code="en"
+></df-messenger>
