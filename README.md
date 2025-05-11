@@ -60,9 +60,6 @@ Welcome to **MIRA Fast Food**, an intelligent fast-food ordering system integrat
 * Integrated using Dialogflow Messenger widget
 * Supports ordering, editing, and tracking food orders
 
-## 📸 Screenshots
-
-> Add some screenshots here (menu, chatbot, etc.)
 
 ## 📌 To Do
 
